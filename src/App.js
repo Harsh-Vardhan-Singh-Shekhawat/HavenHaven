@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import styles from './App.module.css';
+import FeatureProperty from './components/FeatureProperty';
+import Header from './components/Header'
+import landingImg from './components/Images/landing.jpg'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div >
+      <img className={styles['landing-img']} src={landingImg} alt='Landing Img'></img>
+        <div className={styles['intro-text']}>
+          <h1 className={styles['intro-heading']}>
+            Find You Suitable Dream Home.
+          </h1>
+          <h2>Find new & featured property located in your local city.</h2>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+      <FeatureProperty />
     </div>
   );
 }

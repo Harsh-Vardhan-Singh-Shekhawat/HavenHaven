@@ -1,0 +1,52 @@
+.header{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    /* border: 1px solid black; */
+    background: transparent;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.title-div{
+    position: relative;
+    left: 5%;
+}
+.header-list{
+    display: flex;
+}
+.header-li-item{
+    /* position: relative; */
+    list-style: none;
+    margin: 0 1rem;
+    font-size: larger;
+}
+.header-li-item:hover{
+    transition: 400ms;
+    color: rgb(231, 199, 14);
+}
+.header-btn{
+   position: relative;
+   right: 10%;
+}
+.signin-btn{
+    width: 5rem;
+    font-size: medium;
+    margin-right: 1rem;
+    border: none;
+    background-color: transparent;
+}
+.contact-btn{
+    width: 10rem;
+    height: 3rem;
+    font-size: medium;
+    letter-spacing:1px;
+    border: none;
+    color: #fff;
+    background-color: rgb(231, 199, 14);
+    box-shadow: 10px 10px 50px grey;
+    
+}

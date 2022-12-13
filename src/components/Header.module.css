@@ -1,14 +1,15 @@
 .header{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     text-align: center;
     /* border: 1px solid black; */
-    background: transparent;
+    /* background: transparent; */
 }
 .header-container{
     display: flex;
     align-items: center;
     text-align: center;
+    /* background: transparent; */
     justify-content: space-between;
 }
 .title-div{

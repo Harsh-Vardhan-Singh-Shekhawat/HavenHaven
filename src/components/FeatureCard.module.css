@@ -1,0 +1,28 @@
+
+.feature-section{
+    margin-top: 0;
+    background-color: #f7f9fc;
+    text-align: center;
+    background-color: #f7f9fc;
+}
+.feature-img{
+    width: 65px;
+    height: 65px;
+
+}
+.feature-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: #f7f9fc;
+    padding: 5rem 0;
+}
+.feature-item{
+    text-align: center;
+    width: 150px;
+    height: 130px;
+    padding: 30px;
+    box-shadow:0 0 20px 0 rgba(112, 121, 138, 0.18) ;
+    /* border: 1px solid grey; */
+}

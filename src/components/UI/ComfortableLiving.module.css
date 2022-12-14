@@ -9,14 +9,13 @@
 .living-container{
     display: flex;
     margin-top:4rem;
-    /* padding:4rem 0 0 4rem; */
     width: 1200px;
-    /* text-align: center; */
-    /* margin: auto; */
+}
+i{
+    color: rgb(231, 199, 14);
 }
 .living-sub-container{
     width:80%;
-
 }
 .color-text{
     color: rgb(231, 199, 14);
@@ -42,7 +41,8 @@
 }
 .comf-heading{
     font-family: "DM Serif Display";
-    font-size: 2.5rem;
+    font-size: 3rem;
+    color: #191919;
 }
 .interior-btn{
     width: 10rem;
@@ -69,23 +69,34 @@
     color: #191919;
     /* letter-spacing: 1.2px; */
 }
-.f-display-container{
+.f-disp-sec{
+    display: flex;
+    justify-content: center;
     overflow: hidden;
+}
+.f-display-container{
+    /* overflow: hidden; */
+    height: 720px;
 }
 .first-display{
     width: 1200px;
-    height: 400px;
+    height: 680px;
     background-color: rgb(242, 240, 228);
     display: flex;
-
+    margin-bottom: 1rem;
 }
-.leftfDisplay{
+.left-fDisplay{
+    /* width: 500px; */
+    margin: auto;
+    padding: 4rem;
     max-width: 40%;
+}
+.right-display{
+    max-width: 60%;
 }
 .fDisplay-img{
     position: relative;
-    left: 40%;
+    top: 3.5rem;
     width:980px;
-    /* object-fit:cover; */
     /* overflow: hidden; */
 }

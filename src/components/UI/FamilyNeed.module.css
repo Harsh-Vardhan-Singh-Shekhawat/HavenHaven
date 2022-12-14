@@ -1,0 +1,33 @@
+.family-need-sec{
+    display: flex;
+    justify-content: center;
+}
+.family-need-cont{
+    padding: 4rem 0;
+    display: flex;
+    width: 1200px;
+    
+}
+
+.fn-card{
+    text-align: center;
+    margin: 1rem;
+    width: 300px;
+    height: 250px;
+    max-width: 25%;
+    padding:0 60px ;
+}
+.fn-icons{
+    color: rgb(54, 54, 114);
+    width: 50px;
+    font-size: xxx-large;
+    padding: 1rem;
+    font-weight: 100;
+}
+.fn-heading{
+    padding: .4rem 0;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    font-size: medium;
+    color: rgb(231, 199, 14);
+}

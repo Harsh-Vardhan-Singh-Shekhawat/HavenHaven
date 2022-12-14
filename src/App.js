@@ -3,7 +3,10 @@ import FeatureProperty from './components/FeatureProperty';
 import Header from './components/Header'
 import landingImg from './components/Images/landing.jpg'
 import ComfortableLiving from './components/UI/ComfortableLiving';
-// import RecentProperty from './RecentProperty';
+import FirstDisplay from './components/UI/FirstDisplay';
+import ChooseSection from './ChooseSection';
+import SecondDisplay from './components/UI/SecondDisplay';
+import FamilyNeed from './components/UI/FamilyNeed';
 function App() {
   return (
     <div className="App">
@@ -20,6 +23,10 @@ function App() {
       </div>
       <FeatureProperty />
       <ComfortableLiving />
+      <FirstDisplay />
+      <ChooseSection />
+      <SecondDisplay />
+      <FamilyNeed />
     </div>
   );
 }

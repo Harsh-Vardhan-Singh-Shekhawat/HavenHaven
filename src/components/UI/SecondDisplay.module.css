@@ -1,0 +1,21 @@
+.second-disp-section{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: "DM Serif Display";
+
+}
+.second-disp-container{
+    width: calc(1200px + 2rem);
+    height: 780px;
+    background-color:rgb(242, 240, 228);
+}
+.sec-disp-heading{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+.sDisplay-img{
+    width: 980px;
+    position: relative;
+    right: 6.5rem;
+}

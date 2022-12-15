@@ -7,6 +7,8 @@ import FirstDisplay from './components/UI/FirstDisplay';
 import ChooseSection from './ChooseSection';
 import SecondDisplay from './components/UI/SecondDisplay';
 import FamilyNeed from './components/UI/FamilyNeed';
+import Appointment from './components/UI/Appointment';
+import Sales from './components/UI/Sales';
 function App() {
   return (
     <div className="App">
@@ -27,6 +29,8 @@ function App() {
       <ChooseSection />
       <SecondDisplay />
       <FamilyNeed />
+      <Appointment />
+      <Sales />
     </div>
   );
 }

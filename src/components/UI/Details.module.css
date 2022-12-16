@@ -1,0 +1,24 @@
+.detail-sec{
+    background-color: #f7f2ec;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem ;
+}
+.detail-cont{
+    width: 1200px;   
+    display: flex;
+    justify-content: center;
+}
+.detail-sub-cont{
+    width: 300px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+.detail-icon{
+    font-size: 3rem;
+}
+.detail-heading{
+    color: rgb(231,220,14);
+    letter-spacing: 1px;
+}

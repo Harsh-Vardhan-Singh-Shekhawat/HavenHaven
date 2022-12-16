@@ -1,7 +1,7 @@
 .choose-section{
     display: flex;
     justify-content: center;
-   margin: 2.5rem; 
+    margin: 2.5rem; 
 }
 .choose-sec-container{
     display: grid;

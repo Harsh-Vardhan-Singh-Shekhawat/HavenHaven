@@ -9,9 +9,11 @@ import SecondDisplay from './components/UI/SecondDisplay';
 import FamilyNeed from './components/UI/FamilyNeed';
 import Appointment from './components/UI/Appointment';
 import Sales from './components/UI/Sales';
+import Details from './components/UI/Details';
+import Footer from './components/UI/Footer';
 function App() {
   return (
-    <div className="App">
+    <div className={styles['App']}>
       <Header />
       <div>
       <img className={styles['landing-img']} src={landingImg} alt='Landing Img'></img>
@@ -31,6 +33,8 @@ function App() {
       <FamilyNeed />
       <Appointment />
       <Sales />
+      <Details />
+      <Footer />
     </div>
   );
 }

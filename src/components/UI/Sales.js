@@ -1,6 +1,8 @@
 import React from 'react'
 import salesimg from '../Images/inner_team_01.jpg'
 import styles from './Sales.module.css'
+
+
 const Sales = () => {
   return (
     <section className={styles['sales-sec']}>
@@ -22,7 +24,7 @@ const Sales = () => {
             <img className={styles['sales-img']} src={salesimg} alt='img'></img>
         </div>
       </div>
-      <div></div>
+      
     </section>
   )
 }
